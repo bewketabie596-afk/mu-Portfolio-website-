@@ -3,8 +3,8 @@
 }
  body{
         background-color: aqua;
-        padding: 0;
-        margin: 0;
+        padding: 0px;
+        margin: 0px;
         text-align: center;}
 
 header{
@@ -12,9 +12,8 @@ header{
     padding:1px
     font-size 30px;
     text-align: center;
-
-}
-table{
+ table
+ {
     background-color: blueviolet;
     text-align: center;
     padding: 50px
@@ -37,7 +36,7 @@ table,th,tr,td{
  padding-right: 1px;
 }
 
-.home{
+#home{
     background-color: chocolate;
     display: flex;
     flex-direction: column;
@@ -104,7 +103,7 @@ box-shadow: 0 4px 8px rgb(0,0,0,0,1);
 border-radius: 10px;
 transition: transform 0.3s;
 text-align: center;
- max-width: 800px;
+ max-width:900%;
  margin: auto;
  margin-bottom: 20px;
 }
@@ -118,20 +117,21 @@ ul {
 }
 ul li{
     background-color: aqua;
-    padding: 30px;
-    margin: 20px ;
+    padding: 0px;
+    margin: 0px ;
     text-align: center;
     border-radius: spx;
     box-shadow: 0 3px rgb(0,0,0.1);
 }
 form{
     display: grid;
-    gap: 1rem;
+    gap: 30px;
     
 }
 label{
-padding: 40px;  
+padding: 20px;  
 margin: 20px; 
+ max-width:50px;
     border-radius: 33px;
     margin: auto;
     margin-bottom:30px;
@@ -144,9 +144,9 @@ form,input{
     margin: 15px;
     border-radius: 1rem;
     margin-bottom: 30px;
-max-width: 800px;
+max-width: 25px;
 display: block;
-width: 100%;
+width: 10%;
 margin: auto;
 margin-bottom: 20px;
 
@@ -155,15 +155,15 @@ textarea{
     border-radius: 1rem;
     padding: 1rem 1.7rem;
     margin: 20px;
-    width: 100%;
+    width: 50%;
 
 
 }
 button{
     display: grid;
     margin: center;
-    padding: 0.5rem 0.4rem 0.3rem;
-    width: 50px;
+    padding: 10px;
+    width: 30px;
     border-radius: 10px;
     justify-self: center;
     background-color: yellow;
