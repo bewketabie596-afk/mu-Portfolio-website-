@@ -129,53 +129,37 @@ ul li{
  border-radius: spx;
     box-shadow: 0 3px rgb(0,0,0.1);
 }
-#contact{
- background-color:yellow;
-}
+
 form{
-    display: grid;
-    gap:30px;
-    
+    display:grid;
+    gap:1rem;
 }
 label{
-padding: 20px;  
-margin: 20px; 
-max-width: 50px;
-    border-radius: 33px;
-    margin: auto;
-    margin-bottom:30px;
-    text-align: center;
-    
+    display:grid;
 }
 form,input{
-    border: 0px solid #f4f4f4;
-    padding: 30px;
-    margin: 15px;
-    border-radius: 1rem;
-    margin-bottom: 30px;
-max-width: 20px;
-display: block;
-width: 10%;
-margin: auto;
-margin-bottom: 20px;
-
+    border: 0.px solid #f4f4f4;
+    padding:0.5rem;
+    margin: 1.5px;
+    border-radius: 1rem;
 }
 textarea{
-    border-radius: 1rem;
-    padding:20px;
-    margin: 20px;
-    width: 50px 
-
-
+    border-radius:1rem;
+    padding:0.95rem 1.7rem;
 }
 button{
-    display: grid;
-    margin: center;
-    padding:10px;
- width: 30px;
-    border-radius: 50px;
-    justify-self: center;
-    background-color: yellow;
-}
- 
+    display:grid;
+    margin:center;
+    padding:0.5rem 0.4rem 0.3rem;
+   font-weight:70px;
+    border-radius:996px;
+    justify-self: center;
+    background:#24a81f;
+    font-size: 1rem;
 
+}
+footer{
+   background: #343a3b;
+   padding: 6px;
+   margin: 5px;
+}
