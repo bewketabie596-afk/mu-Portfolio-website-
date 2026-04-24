@@ -1,4 +1,5 @@
 
+
 body{
         background-color: aqua;
         padding: 1px;
@@ -6,17 +7,17 @@ body{
         text-align: center;}
 
 header{
-    background-color: green;
+    background-color: gray;
     padding:0px;
         margin:0px;
         display-flex;
 justify-content:center;}
 .nav-menu {
   display: flex;              
-  justify-content: center;    
+  "space-around";
   align-items: center;        
   gap: 20px;                 
-  flex-wrap: wrap;           
+         
   width: 100%;               
 }
 
@@ -27,7 +28,7 @@ justify-content:center;}
 }
 
     table{
-    background-color: yellow;
+    background-color: blueviolet;
     text-align: center;
 }
 table,th,tr,td{
@@ -43,7 +44,7 @@ table,th,tr,td{
 }
 
 #home{
-    background-color:red;
+    background-color:green;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,7 +56,7 @@ table,th,tr,td{
         
 }
 #about{
-    background-color: aqua;
+    background-color: darkkhaki;
     padding: 30px;
     text-align: center;
     color: blueviolet;
@@ -69,14 +70,17 @@ display: inline-block;
 padding-bottom: 10px;
 }
 #about p{
-    background-color:gray;
+    background-color:aqua;
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.6rem;
     font-size: 1.1rem;
 }
-
-
+nav,ul{background-color:yellowgreen;
+      justify-content:center;
+      margin:0px;
+       padding:0px;
+       gap:5px:}
 header  nav,ul{
     list-style: none;
     padding:0px;
@@ -84,7 +88,7 @@ header  nav,ul{
     display: flex;
 gap: 10px;
 align-items: center;
-    background-color:;
+    background-color:gray;
 }
 
 nav,ul,li{
@@ -111,7 +115,6 @@ padding: 20px;
 margin: 20px;
 background-color: burlywood;
 box-shadow: 0 4px 8px rgb(0,0,0,0,1);
-
 border-radius: 10px;
 transition: transform 0.3s;
 text-align: center;
@@ -155,5 +158,4 @@ footer{
    padding: 6px;
    margin: 5px;
 }
-
 
